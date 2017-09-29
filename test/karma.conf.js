@@ -1,5 +1,4 @@
-// Karma configuration
-// Generated on Thu Sep 28 2017 14:05:07 GMT+0200 (Central European Summer Time)
+var webpackConfig = require('../webpack.config.js')
 
 module.exports = function(config) {
   config.set({
@@ -10,20 +9,7 @@ module.exports = function(config) {
     preprocessors: {
         'index.js': ['webpack']
     },
-    webpack: {
-        module: {
-            loaders: [
-                { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader?presets[]=es2015' }
-            ]
-        },
-        watch: true,
-        resolve: {
-            extensions: ['.js'],
-            alias: {
-                '@': __dirname + '/../src'
-            }
-        },
-    },
+    webpack: webpackConfig,
     webpackServer: {
         noInfo: true
     },
