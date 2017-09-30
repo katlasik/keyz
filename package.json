@@ -4,8 +4,8 @@
   "description": "Set of constants indentyfying keyboard keys.",
   "main": "dist/keyz.js",
   "scripts": {
-    "build": "webpack",
-    "test": "karma start test/karma.conf.js"
+    "build": "node_modules/.bin/webpack",
+    "test": "node_modules/.bin/karma start test/karma.conf.js"
   },
   "keywords": [
     "keyboard, keys"
