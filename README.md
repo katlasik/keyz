@@ -19,7 +19,7 @@ $('.input').keypress(function (e) {
 });
 ```
 
-you can use predefined contants like `ENTER`: 
+You will be able to use predefined contants like `ENTER`: 
 
 ```javascript
 import Keys from 'keyz'
@@ -28,8 +28,18 @@ $('.input').keypress(function (e) {
   if (e.which == Keys.ENTER) {
      //do something
   }
-});
+})
 ```
 
+You can also import separate keys:
 
+```javascript
+import { PAGE_UP } from 'keyz'
+
+$('.input').keypress(function (e) {
+  if (e.which == PAGE_UP) {
+     //do something
+  }
+})
+```
 
