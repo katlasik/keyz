@@ -1,4 +1,4 @@
-const Keys = Object.freeze({
+const Keyz = Object.freeze({
   BACKSPACE: 8,
   TAB: 9,
   ENTER: 13,
@@ -100,4 +100,4 @@ const Keys = Object.freeze({
   SINGLE_QUOTE: 222
 })
 
-export { Keys }
+export default Keyz
