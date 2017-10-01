@@ -1,6 +1,6 @@
 {
   "name": "keyz",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Set of constants indentyfying keyboard keys.",
   "main": "dist/keyz.js",
   "scripts": {
@@ -10,6 +10,10 @@
   "keywords": [
     "keyboard, keys"
   ],
+  "repository" : {
+    "type" : "git",
+     "url" : "https://github.com/katlasik/keyz.git"
+  },
   "author": "Krzysztof Atlasik <krzysztof.atlasik@protonmail.com>",
   "license": "MIT",
   "devDependencies": {
