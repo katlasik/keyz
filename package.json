@@ -1,6 +1,6 @@
 {
   "name": "keyz",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Set of constants indentyfying keyboard keys.",
   "main": "dist/keyz.js",
   "scripts": {
@@ -8,7 +8,10 @@
     "test": "node_modules/.bin/karma start test/karma.conf.js"
   },
   "keywords": [
-    "keyboard, keys"
+    "keyboard",
+    "keys",
+    "keys constants",
+    "key"
   ],
   "repository" : {
     "type" : "git",
