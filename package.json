@@ -1,6 +1,6 @@
 {
   "name": "keyz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Set of constants indentyfying keyboard keys.",
   "main": "dist/keyz.js",
   "scripts": {
